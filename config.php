@@ -4,8 +4,8 @@ session_start();
 
 // -- Database (edit) --
 define('DB_HOST', 'localhost');
-define('DB_NAME', 'evo_empire');
-define('DB_USER', 'root');
+define('DB_NAME', '');
+define('DB_USER', '');
 define('DB_PASS', '');
 
 // -- Paths --
@@ -17,9 +17,9 @@ define('USER_DIR_PREFIX', 'users'); // so per-user path: PROTECTED_DIR/users/{id
 // !! CRITICAL: YOU MUST CHANGE THIS TO A LONG, RANDOM, SECRET STRING !!
 // !! Use a password generator. 64+ characters is good.               !!
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-define('DOWNLOAD_SECRET', 'wfs!T+NoK=g%~N"J£urCKN$VW3E){5mA{{s!6hbpK>quaCd^p7');
+define('DOWNLOAD_SECRET', '');
 define('TOKEN_TTL', 90); // seconds
-define('MAX_UPLOAD_BYTES', 1000 * 1024 * 1024); // 200 MB
+define('MAX_UPLOAD_BYTES', 1000 * 1024 * 1024); 
 define('STRIPE_SECRET_KEY', '');
 define('STRIPE_PUBLIC_KEY', '');  // optional (for front-end usage)
 define('STRIPE_DEFAULT_CURRENCY', 'usd');
